@@ -1,4 +1,4 @@
-﻿public class Library
+﻿public class Library38
 {
 // Создание массива
   public static int[] CreateArray(int count)
@@ -11,7 +11,7 @@
   {
     for (int i = 0; i < array.Length; i++)
     {
-      array[i] = Random.Shared.Next(100, 999);
+      array[i] = Random.Shared.Next(1, 100);
     }
   }
 
